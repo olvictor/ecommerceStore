@@ -2,7 +2,8 @@
     padding: 0px 200px;
     height: 60vh;
     display: flex;
-    gap: 20px;
+    gap: 10px;
+    justify-content: space-between;
 }
 
 
@@ -10,7 +11,7 @@
     width: 301px;
     border-left: 1px solid;
     border-right: 1px solid;
-   
+    height: auto;
 }
 
 

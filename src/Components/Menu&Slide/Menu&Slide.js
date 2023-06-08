@@ -2,6 +2,16 @@ import React from 'react'
 import styles from './Menu&Slide.module.css'
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import {LuShirt} from 'react-icons/lu'
+import {BiBluetooth} from 'react-icons/bi'
+import {RiTShirtAirLine} from 'react-icons/ri'
+import {RiShirtLine} from 'react-icons/ri'
+import {BsHeartPulse} from 'react-icons/bs'
+import {GoHome} from 'react-icons/go'
+import {MdOutlinePets} from 'react-icons/md'
+import {BiFootball} from 'react-icons/bi'
+import {BiBookmarkAltPlus} from 'react-icons/bi'
+import {MdGirl} from 'react-icons/md'
+import {MdBoy} from 'react-icons/md'
 import Slide from '../Slide/Slide'
 
 const MenuSlide = () => {
@@ -18,68 +28,68 @@ const MenuSlide = () => {
                 </li>
                 <li>
                     <div className={styles.sectionMenuIcon}>
-                        <LuShirt />
+                        <BiBluetooth />
                        <p>Eletronic</p>
                      </div>
                     <MdOutlineKeyboardArrowRight />
                 </li>
                 <li>
                     <div className={styles.sectionMenuIcon}>
-                        <LuShirt />
+                        <RiTShirtAirLine />
                        <p>Women's Fashion</p>
                      </div>
                     <MdOutlineKeyboardArrowRight />
                 </li>
                 <li>
                     <div className={styles.sectionMenuIcon}>
-                        <LuShirt />
+                        <RiShirtLine />
                        <p>Men's Fashion</p>
                      </div>
                   
                 </li>
                 <li>
                     <div className={styles.sectionMenuIcon}>
-                        <LuShirt />
+                        <MdGirl />
                        <p>Girl's Fashion</p>
                      </div>
                  
                 </li>
                 <li>
                     <div className={styles.sectionMenuIcon}>
-                        <LuShirt />
+                        <MdBoy />
                        <p>Boy's Fashion</p>
                      </div>
                    
                 </li>
                 <li>
                     <div className={styles.sectionMenuIcon}>
-                        <LuShirt />
+                        <BsHeartPulse />
                        <p>Health & Household</p>
                      </div>
                     
                 </li>
                 <li>
                     <div className={styles.sectionMenuIcon}>
-                        <LuShirt />
+                        <GoHome />
                        <p>Home & Kitchen</p>
                      </div>
                     <MdOutlineKeyboardArrowRight />
                 </li>
                 <li>
                     <div className={styles.sectionMenuIcon}>
-                        <LuShirt />
+                        <MdOutlinePets />
                        <p>Pet Supplies</p>
                      </div>
                 </li>
                 <li>
                     <div className={styles.sectionMenuIcon}>
-                        <LuShirt />
+                        <BiFootball />
                        <p>Sports</p>
                      </div>
                 </li>
                 <li>
                     <div className={styles.sectionMenuIcon}>
-                        <LuShirt />
+                        <BiBookmarkAltPlus />
                        <p>Best Seller</p>
                      </div>   
                 </li>
