@@ -1,0 +1,27 @@
+.Submenu{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+.Submenu ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+ul li{
+    text-align: center;
+}
+
+.SubmenuIcons svg{
+    font-size: 2rem;
+}
+.SubmenuCart{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
