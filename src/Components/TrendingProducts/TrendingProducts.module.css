@@ -1,0 +1,17 @@
+.TrendingProducts{
+padding: 0px 200px;
+   
+}
+.TrendingProducts h2{
+position: relative;
+}
+.TrendingProducts h2::before{
+content: "";
+position: absolute;
+width: 30px;
+height: 30px;
+background-color: rgba(68,61,88,255);
+border-radius: 50%;
+left: -40px;
+
+}

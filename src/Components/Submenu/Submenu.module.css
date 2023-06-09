@@ -12,6 +12,22 @@
     align-items: center;
     gap: 10px;
 }
+.Submenu ul h2{
+    position: relative;
+}
+
+.Submenu ul h2::before{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(68,61,88,300);
+    opacity: .8;
+    left: -25px;
+    top: -8px;
+}
+
 ul li{
     text-align: center;
 }

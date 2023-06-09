@@ -8,17 +8,19 @@
 
 
 .sectionMenu{
-    width: 301px;
-    border-left: 1px solid;
-    border-right: 1px solid;
-    height: auto;
+    width: 20%
+  
+}
+.sectionMenu ul{
+    border-left:1px solid rgba(0, 0, 0, .1);
+    border-right:1px solid rgba(0, 0, 0, .1);
+    height: 100%;
 }
 
-
 .sectionMenu ul li{
+    height: 9.1%;
     display: flex;
-    border-bottom: 1px solid black;
-    height: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
     justify-content: space-between;
     align-items: center;
     cursor: pointer;

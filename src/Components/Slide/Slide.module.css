@@ -1,5 +1,5 @@
 .slide{
-    width: 70%;
+    width: 80%;
     position: relative;
     padding-top: 20px;
 }
@@ -47,4 +47,25 @@ font-weight: bolder;
     color: #fff;
     border: none;
     cursor: pointer;
+}
+
+.activeItem{
+    display: flex;
+    position: absolute;
+    gap: 6px;
+    bottom: 30px;
+   width: 100%;
+   justify-content: center;
+}
+
+.activeItem span{
+    height:12px;
+    width: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.activeItem span.active{
+    background-color: rgba(68,61,88,255);
 }

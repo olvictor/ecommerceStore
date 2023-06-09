@@ -40,7 +40,6 @@ const Slide = () => {
   ]
 
   const [currentSlide, setCurrentSlide] = useState(1)
-  console.log(arraySlide[currentSlide])
   const nextSlide = () =>{
     if(currentSlide < arraySlide.length -1){
       setCurrentSlide(currentSlide+1)
@@ -59,7 +58,16 @@ const Slide = () => {
             <h3>{arraySlide[currentSlide].slideTitleh3}</h3>
             <h2>{arraySlide[currentSlide].slideTitleh2}</h2>
             <button>{arraySlide[currentSlide].button}</button>
-        </div>       
+        </div> 
+        <div className={styles.activeItem}>
+        {[...Array(arraySlide.length)].map((item , index)=>{
+          return <span className={currentSlide === index ? styles.active : ''}
+          onClick={()=>{
+            setCurrentSlide(index)
+          }}
+          ></span>
+        })}
+        </div>
     </div>
   )
 }
