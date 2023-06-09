@@ -60,6 +60,7 @@ p{
 margin: 0;
 }
 
+
 .cardProductOfferPrice{
 font-size: 1.5rem;
 color: red;
@@ -83,4 +84,40 @@ progress::-moz-progress-bar {
 progress::-webkit-progress-value {
 background-color: rgba(68,61,88,255);
 
+}
+.ProductCatalog{
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 2/5;
+    margin-left: 20px;
+}
+
+.ProductCard{
+    width: 50%;
+    display: flex;
+    position: relative;
+    gap: 4px;
+}
+.ProductCard span{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    padding: 3px;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(200,250,250, .3);
+}
+.ProductCard img{
+    min-width: 130px;
+    max-width: 130px;
+    height: 150px;
+    border-radius: 5px;
+}
+.ProductCardText{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap:6px;
 }
