@@ -1,9 +1,12 @@
 .TrendingProducts{
 padding: 0px 200px;
-   
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;  
+height: 100vh;
 }
 .TrendingProducts h2{
 position: relative;
+height: 1px;
 }
 .TrendingProducts h2::before{
 content: "";
@@ -13,5 +16,71 @@ height: 30px;
 background-color: rgba(68,61,88,255);
 border-radius: 50%;
 left: -40px;
+}
+
+.cardProductOffer{
+grid-column: 1/2;
+text-align: center;
+padding: 20px;
+display: flex;
+gap: 10px;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px solid rgba(0, 0, 0, .2);
+}
+.countDown{
+  display: flex;  
+}
+
+span {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, .1);
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    font-weight: bolder;
+    color: black;
+    border-radius: 4px;
+}
+
+.cardProductOffer img{
+    width: 300px;
+    border-radius: 4px;
+}
+
+.cardProductOfferText{
+    width: 300px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+p{
+margin: 0;
+}
+
+.cardProductOfferPrice{
+font-size: 1.5rem;
+color: red;
+}
+
+.productCount{
+    display: flex;
+    justify-content: space-between;
+}
+progress{
+    width: 100%;
+    background-color: gray;
+    height: 4px;
+    border-radius: 12px;
+    margin-top: 6px;
+}
+
+progress::-moz-progress-bar {
+    background-color: rgba(68,61,88,255); /* Define a cor de fundo do valor */
+}
+progress::-webkit-progress-value {
+background-color: rgba(68,61,88,255);
 
 }
